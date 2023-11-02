@@ -51,7 +51,7 @@ function Comment() {
         <ul className="list-group" id="comments">
           {comments.map((comment, index) => (
             <li className="list-group-item" key={index}>
-              <div className="flex flex-col items-start">
+              <div className="flex flex-col items-start">git remote set-url origin
                 <ProfilePic/>
                 <p className="font-bold text-lg inline ">@{comment.user}</p>
                 <p className="font-thin text-sm inline text-justify"> - {comment.time}</p>
